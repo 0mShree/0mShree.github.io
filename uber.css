@@ -1,0 +1,165 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #000;
+    color: #fff;
+}
+
+nav .right {
+    display: flex;
+}
+
+nav .left {
+    display: flex;
+}
+
+.left img {
+    margin-top: -11px;
+    width: 15%;
+}
+
+.left p {
+    margin-inline: 22px;
+    margin-top: 21px;
+}
+
+.right p {
+    margin-inline: 22px;
+    margin-top: 25px;
+}
+
+.right i {
+    margin-top: 22px;
+    font-size: 22px;
+}
+
+.right button {
+    width: 80px;
+    height: 45px;
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    border-radius: 22px;
+    margin-top: 12px;
+}
+
+.right button:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.card {
+    background-image: url("https://www.nasdaq.com/sites/acquia.prod/files/styles/1370x700/public/2019/11/04/uber-rcfotostock-stock-adobe-com.jpeg?h=93820dd0&itok=nOW4uRR4");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+.main{
+    width: 400px;
+    height: 430px;
+    margin-left: 24px;
+    background-color: #fff;
+}
+.main .icon{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(224, 223, 223);
+}
+.main .icon .bike{
+    margin-inline: 74px;
+    margin-top: 25px;
+    border-bottom: 3px solid #000;
+}
+.icon .bike i{
+    font-size: 150%;
+}
+.card h1{
+    padding: 33px;
+    font-size: 33px;
+}
+.card input{
+    width: 330px;
+    height: 30px;
+    background-color: rgb(221, 212, 212);
+    padding: 8px;
+    margin-top: 4px;
+    border: none;
+    margin-left: 33px;
+}
+.card .btn{
+    margin-left: 33px;
+    margin-top: 44px;
+}
+.card .btn .fr{
+    width: 140px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-inline: 18px;
+}
+.card .btn button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(148, 146, 146);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-inline: 18px;
+}
+.head h1{
+    padding: 33px;
+    font-size: 43px;
+}
+.ride .uber{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.uber .cars{
+    display: flex;
+    margin-top: 33px;
+}
+.uber .cars img{
+    margin-inline: 33px;
+    width: 43%;
+}
+.safe{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 33px;
+}
+
+.app{
+    background-color: #aaa;
+}
+.app h1{
+    padding: 33px;
+    font-size: 44px;
+}
+.app .down{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 35px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #000;
+    color: #fff;
+    padding: 44px;
+    margin-top: 22px;
+}

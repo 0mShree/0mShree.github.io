@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon"
+        href="https://th.bing.com/th/id/R.e51c445a7fbed9b185d782385e4182e1?rik=lx545bdyOWeM0w&pid=ImgRaw&r=0" />
+    <title>Havard University</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1479e0d49f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="main.html"><img src="Images/logo.png"></a>
+            <div class="nav_links" id="navlinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="main.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Harvard at a glance</h1>
+                <p>Harvard is at the frontier of academic and intellectual discovery. Those who venture here—to learn,
+                    research, teach, work, and grow—join nearly four centuries of students and scholars in the pursuit
+                    of truth, knowledge, and a better world.
+                </p>
+                <p>As a research university and nonprofit institution, Harvard is focused on creating educational
+                    opportunities for people from many lived experiences.
+                </p>
+                <a href="main.html" class="next-btn black-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="https://catalyst.independent.org/wp-content/uploads/2019/11/Harvard-Building.jpg">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Harvard University is a private Ivy League research university in Cambridge, Massachusetts. Founded in 1636
+            <br>
+            as Harvard College and named for its first benefactor, the Puritan clergyman John Harvard, it is the oldest
+            institution of <br>higher learning in the United States. Its influence, wealth and rankings have made it one
+            of
+            the most prestigious universities in the world.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+    </section>
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>

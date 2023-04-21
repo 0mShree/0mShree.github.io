@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon"
+        href="https://th.bing.com/th/id/R.e51c445a7fbed9b185d782385e4182e1?rik=lx545bdyOWeM0w&pid=ImgRaw&r=0" />
+    <title>Havard University</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1479e0d49f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="main.html"><img src="Images/logo.png"></a>
+            <div class="nav_links" id="navlinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="main.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+.re
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>When you come to Harvard, either to pursue an undergraduate liberal arts concentration from Harvard College
+            or to join one of our 12 graduate and professional Schools, you become part of our legacy of impactful
+            scholarship and cutting-edge research.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Undergraduate</h3>
+                <p>Browse the undergraduate degrees offered by Harvard's 13 Schools and learn more about admissions
+                    requirements,
+                    scholarship, and financial aid opportunities. We also offer executive education, certificate
+                    programs, and online courses for professional and lifelong learners.</p>
+            </div>
+            <div class="course-col">
+                <h3>Graduate</h3>
+                <p>Browse the graduate degrees offered by Harvard's 13 Schools and learn more about admissions
+                    requirements, scholarship, and financial aid opportunities. We also offer executive education,
+                    certificate programs, and online courses for professional and lifelong learners.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="faculties">
+        <h1>Our Facilities</h1>
+        <p>Harvard students have immediate access to some of the world’s greatest scholars. Nobel laureates lead
+            introductory courses. <br> Pulitzer Prize-winning authors teach General Education courses. National Book
+            Award
+            winners give Freshman Seminars.</p>
+        <div class="row">
+            <div class="faculties-col">
+                <img
+                    src="https://college.harvard.edu/sites/default/files/styles/max_800_x_985/public/2022-04/linderpix-Harvard-2037-web.jpg?itok=5mcJipSx">
+                <h3>LIBRARIES</h3>
+                <p>Beyond helping scholars learn, research, and pursue truth, our libraries are dedicated to expanding
+                    knowledge and intellectual exploration for everyone.
+                </p>
+            </div>
+            <div class="faculties-col">
+                <img
+                    src="https://localist-images.azureedge.net/photos/33624118377621/card/4a9dab08f1e2552f09218f4500743ed364e468d6.jpg">
+                <h3>ATLETICS</h3>
+                <p>Since the nation's first college athletic event—an 1852 crew race against Yale—athletics have been a
+                    unifying force across the Harvard community.
+                </p>
+            </div>
+            <div class="faculties-col">
+                <img src="https://s3.amazonaws.com/media.thecrimson.com/photos/2009/12/13/202539_1224682.jpg">
+                <h3>MUSEUM</h3>
+                <p>Harvard’s museums curate renowned collections, pioneer cutting-edge research, and offer educational experiences for everyone.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Harvard University is a private Ivy League research university in Cambridge, Massachusetts. Founded in 1636 <br>
+            as Harvard College and named for its first benefactor, the Puritan clergyman John Harvard, it is the oldest
+            institution of <br>higher learning in the United States. Its influence, wealth and rankings have made it one of
+            the most prestigious universities in the world.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+    </section>
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>

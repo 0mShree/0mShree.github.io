@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon"
+        href="https://th.bing.com/th/id/R.e51c445a7fbed9b185d782385e4182e1?rik=lx545bdyOWeM0w&pid=ImgRaw&r=0" />
+    <title>Havard University</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1479e0d49f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="main.html"><img src="Images/logo.png"></a>
+            <div class="nav_links" id="navlinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="main.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>Blog</h1>
+    </section>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="https://www.petersons.com/blog/wp-content/uploads/2021/08/iStock-187756068-770x515.jpg">
+                <h2>Our Ranking</h2>
+                <p>Among overall rankings, the Academic Ranking of World Universities (ARWU) has ranked Harvard as the
+                    world's top university every year since it was released.[98] When QS and Times Higher Education
+                    collaborated to publish the Times Higher Education–QS World University Rankings from 2004 to 2009,
+                    Harvard held the top spot every year and continued to hold first place on THE World Reputation
+                    Rankings ever since it was released in 2011. In 2019, it was ranked first worldwide by SCImago
+                    Institutions Rankings. It was ranked in the first tier of American research universities, along
+                    with Columbia, MIT, and Stanford, in the 2019 report from the Center for Measuring University
+                    Performance. Harvard University is accredited by the New England Commission of Higher
+                    Education.
+                </p>
+                <br>
+                <p>
+                    Among rankings of specific indicators, Harvard topped both the University Ranking by Academic
+                    Performance (2019–2020) and Mines ParisTech: Professional Ranking of World Universities (2011),
+                    which measured universities' numbers of alumni holding CEO positions in Fortune Global 500
+                    companies. According to annual polls done by The Princeton Review, Harvard is consistently
+                    among the top two most commonly named dream colleges in the United States, both for students and
+                    parents. Additionally, having made significant investments in its engineering school
+                    in recent years, Harvard was ranked third worldwide for Engineering and Technology in 2019 by Times
+                    Higher Education.
+                </p>
+                <br>
+                <p>
+                    Harvard is a founding member of the Association of American Universities and a preeminent
+                    research university with "very high" research activity and comprehensive doctoral programs
+                    across the arts, sciences, engineering, and medicine according to the Carnegie Classification.
+
+                    With the medical school consistently ranking first among medical schools for research,
+                    biomedical research is an area of particular strength for the university. More than 11,000 faculty
+                    and over 1,600 graduate students conduct research at the medical school as well as its 15 affiliated
+                    hospitals and research institutes. The medical school and its affiliates attracted $1.65 billion
+                    in competitive research grants from the National Institutes of Health in 2019, more than twice as
+                    much as any other university.
+                </p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="next-btn black-btn">Post Comment</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Science & Technology</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Arts & Humanities</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Health & Medicine</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Harvard University is a private Ivy League research university in Cambridge, Massachusetts. Founded in 1636 <br>
+            as Harvard College and named for its first benefactor, the Puritan clergyman John Harvard, it is the oldest
+            institution of <br>higher learning in the United States. Its influence, wealth and rankings have made it one of
+            the most prestigious universities in the world.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+    </section>
+    <script>
+
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
